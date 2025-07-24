@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="tailwind.init.css">
 </head>
-<body>
+<body class="scroll-smooth">
     <header class="lg:w-[1140px] m-auto mt-7">
         <nav class="flex justify-between items-center px-4 ">
             <div class="logo w-16 md:w-32">
@@ -98,7 +98,7 @@
         <section class="flower-plants lg:w-[1140px] lg:m-auto flex lg:justify-between lg:items-center lg:flex-row lg:gap-[60px] flex-col justify-center px-4">
             <div class="img relative mb-5 lg:mb-0 flex justify-center ">
                 <img src="assets/flower-store.png" alt="Store-image">
-                <img width="286px" class="absolute top-[-120px] right-[-100px] md:right-2.5 hidden md:block" src="assets/trusted-badge.png" alt="trusted-badge">
+                <img width="286px" class="absolute top-[-120px] lg:right-[-100px] md:right-2.5 hidden md:block animate-spin " src="assets/trusted-badge.png" alt="trusted-badge">
             </div>
             <div class="customer_choice lg:w-[540px] ">
                 <h1 class="md:text-[50px] text-2xl font-semibold font-noto mb-5">Flower & Plants <br class="hidden lg:block"> Lover</h1>
@@ -178,6 +178,14 @@
             </div>
         </section>
     </footer>
+
+
+    
+    <script>
+        function popUp() {
+            alert('The Flower items add to Cart Box')
+        } 
+    </script>
     
 </body>
 </html>
